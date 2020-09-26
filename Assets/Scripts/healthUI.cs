@@ -11,6 +11,7 @@ public class healthUI : MonoBehaviour
     private int health = 3;
 
     public int Health { get { return health; } set { if(health != value) { health = value; mainCamera.GetComponent<shakeBehaviour>().TriggerShake(); } updateHealthUI(); } }
+    public GameObject gameOverCanvas;
 
     void Awake()
     {
@@ -26,6 +27,15 @@ public class healthUI : MonoBehaviour
                 images[i].enabled = false;
             else
                 images[i].enabled = true;
+        }
+
+        if (health == 0){
+            
+            gameOverCanvas.SetActive(true);
+            mainCamera.GetComponent<shakeBehaviour>().stopShake();
+            Time.timeScale = 0f;
+
+
         }
     }
 }
