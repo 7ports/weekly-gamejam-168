@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Platform
   - Spike
+  - Enemy
+  - EnemyHit
+  - EnemyTurn
+  - Wall
   layers:
   - Default
   - TransparentFX

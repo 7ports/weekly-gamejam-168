@@ -13,6 +13,7 @@ public class playerBehaviour : MonoBehaviour
     float fallMultiplier;
     float jumpWeight;
     public GameObject HUDUI;
+    bool invincible;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class playerBehaviour : MonoBehaviour
         jumpMult = 5.0f;
         fallMultiplier = 2.0f;
         jumpWeight = 3.0f;
+        invincible = false;
 
     }
 
@@ -58,8 +60,25 @@ public class playerBehaviour : MonoBehaviour
             return false;
     }
     private void OnCollisionEnter2D(Collision2D collider) {
+        if (!invincible)
+        {
+            if (collider.gameObject.tag == "Spike")
+                HUDUI.GetComponent<healthUI>().Health = 0;
+            if (collider.gameObject.tag == "Enemy"){
+                HUDUI.GetComponent<healthUI>().Health -= 1;
+                invincible = true;
+                Invoke("resetInvincibility", 2.0f);
+                InvokeRepeating("flickerSprite", 0.0f, 0.3f);
+            }
+        }
+    }
 
-        if (collider.gameObject.tag == "Spike")
-            HUDUI.GetComponent<healthUI>().Health -= 1;
+    private void resetInvincibility(){
+        invincible = false;
+        CancelInvoke("flickerSprite");
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+    private void flickerSprite(){
+        GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
     }
 }
