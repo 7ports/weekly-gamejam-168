@@ -12,16 +12,18 @@ public class playerFollow : MonoBehaviour
         //the box is cameraBox.x*2 wide and cameraBox.y*2 tall
         float x = transform.position.x;
         float y = transform.position.y;
-       if(player.position.x > transform.position.x + cameraBox.x)
-            x = player.position.x - cameraBox.x;
-       else if(player.position.x < transform.position.x - cameraBox.x)
-            x = player.position.x + cameraBox.x;
+        if (!this.GetComponent<shakeBehaviour>().isShake)
+        {
+            if (player.position.x > transform.position.x + cameraBox.x)
+                x = player.position.x - cameraBox.x;
+            else if (player.position.x < transform.position.x - cameraBox.x)
+                x = player.position.x + cameraBox.x;
 
-       if(player.position.y > transform.position.y + cameraBox.y)
-            y = player.position.y - cameraBox.y;
-       else if(player.position.y < transform.position.y - cameraBox.y)
-            y = player.position.y + cameraBox.y;
-
+            if (player.position.y > transform.position.y + cameraBox.y)
+                y = player.position.y - cameraBox.y;
+            else if (player.position.y < transform.position.y - cameraBox.y)
+                y = player.position.y + cameraBox.y;
+        }
         transform.position = new Vector3(x, y, -10);
     }
 }

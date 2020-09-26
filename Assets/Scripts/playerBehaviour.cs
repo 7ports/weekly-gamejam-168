@@ -12,6 +12,7 @@ public class playerBehaviour : MonoBehaviour
     float jumpMult;
     float fallMultiplier;
     float jumpWeight;
+    public GameObject HUDUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,7 +60,6 @@ public class playerBehaviour : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collider) {
 
         if (collider.gameObject.tag == "Spike")
-            Destroy(gameObject); //This will straight up destroy the player, can replace this line with any code we want to execute when player touches spikes
-        
+            HUDUI.GetComponent<healthUI>().Health -= 1;
     }
 }
