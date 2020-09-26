@@ -14,6 +14,7 @@ public class playerBehaviour : MonoBehaviour
     float jumpWeight;
     public GameObject HUDUI;
     bool invincible;
+    float invincibilityDuration;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,7 @@ public class playerBehaviour : MonoBehaviour
         fallMultiplier = 2.0f;
         jumpWeight = 3.0f;
         invincible = false;
-
+        invincibilityDuration = 1.0f;
     }
 
     // Update is called once per frame
@@ -53,13 +54,17 @@ public class playerBehaviour : MonoBehaviour
     bool isGrounded()
     {
         RaycastHit2D hitGround = Physics2D.Raycast(transform.position + Vector3.down + new Vector3 (0, 0.25f, 0), Vector2.down, 0.001f); //raycasting to try to hit a platform
-
-        if ((hitGround.collider != null) && (hitGround.transform.tag == "Platform"))
-            return true;
-        else
+        if ((hitGround.collider != null))
+        {
+            if ((hitGround.transform.tag == "Wall") || (hitGround.transform.tag == "Platform"))
+                return true;
+            else
+                return false;
+        } else {
             return false;
+        }
     }
-    private void OnCollisionEnter2D(Collision2D collider) {
+    private void OnCollisionStay2D(Collision2D collider) {
         if (!invincible)
         {
             if (collider.gameObject.tag == "Spike")
@@ -67,7 +72,7 @@ public class playerBehaviour : MonoBehaviour
             if (collider.gameObject.tag == "Enemy"){
                 HUDUI.GetComponent<healthUI>().Health -= 1;
                 invincible = true;
-                Invoke("resetInvincibility", 2.0f);
+                Invoke("resetInvincibility", invincibilityDuration);
                 InvokeRepeating("flickerSprite", 0.0f, 0.3f);
             }
         }
