@@ -15,7 +15,6 @@ public class playerBehaviour : MonoBehaviour
     public GameObject HUDUI;
     bool invincible;
     float invincibilityDuration;
-    // Start is called before the first frame update
     void Start()
     {
 
@@ -43,11 +42,14 @@ public class playerBehaviour : MonoBehaviour
 
     private void FixedUpdate() {
         //moving player left and right
-        if(horizontalInput > 0)
-            transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
-        if(horizontalInput < 0)
-            transform.Translate(Vector3.left * Time.deltaTime * moveSpeed);
-        
+        if(horizontalInput > 0){
+            transform.right = Vector3.right;
+            transform.Translate(transform.right * Time.deltaTime * moveSpeed);
+        }
+        if(horizontalInput < 0){
+            transform.right = Vector3.left;
+            transform.Translate(-transform.right * Time.deltaTime * moveSpeed);
+        }
         if (rb.velocity.y < jumpWeight)
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime; //makes the player fall faster after they've reached the peak of their jump, will wait until the true peak if jumpWeight is set to 0.0f
     }
@@ -75,6 +77,15 @@ public class playerBehaviour : MonoBehaviour
                 Invoke("resetInvincibility", invincibilityDuration);
                 InvokeRepeating("flickerSprite", 0.0f, 0.3f);
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "redGem") {
+            //TODO: disable other special combat scripts when picking up a particular gem
+            GetComponent<fireballCombat>().enabled = true;
+            Destroy(other.gameObject);
+
         }
     }
 

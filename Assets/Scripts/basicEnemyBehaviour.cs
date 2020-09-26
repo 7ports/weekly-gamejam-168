@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class basicEnemyBehaviour : MonoBehaviour
 {
-    private float moveSpeed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        moveSpeed = 1.0f;
-    }
-
-    // Update is called once per frame
+    public float moveSpeed;
     void Update()
     {
         transform.Translate(Vector3.left * Time.deltaTime * moveSpeed);
