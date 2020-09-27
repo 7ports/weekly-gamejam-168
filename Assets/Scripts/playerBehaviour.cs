@@ -45,10 +45,14 @@ public class playerBehaviour : MonoBehaviour
         if(horizontalInput > 0){
             transform.right = Vector3.right;
             transform.Translate(transform.right * Time.deltaTime * moveSpeed);
+            GetComponent<Animator>().SetBool("isWalking", true);
         }
-        if(horizontalInput < 0){
+        else if(horizontalInput < 0){
             transform.right = Vector3.left;
             transform.Translate(-transform.right * Time.deltaTime * moveSpeed);
+            GetComponent<Animator>().SetBool("isWalking", true);
+        } else {
+            GetComponent<Animator>().SetBool("isWalking", false);
         }
         if (rb.velocity.y < jumpWeight)
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime; //makes the player fall faster after they've reached the peak of their jump, will wait until the true peak if jumpWeight is set to 0.0f

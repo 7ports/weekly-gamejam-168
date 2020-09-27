@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4249984898427959593}
   - component: {fileID: 570479540}
   - component: {fileID: -5993859893525620197}
+  - component: {fileID: 5461566860590566515}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -160,8 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0415231d569e048bb50889e154dbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: {fileID: 0}
-  attackRange: 0.5
+  attackPoint: {fileID: 6192851083535409684}
+  attackRange: 0.35
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
@@ -180,6 +181,25 @@ MonoBehaviour:
   fireball: {fileID: 4391991296493538642, guid: 0f46b119d4404e647892b28926146e0d, type: 3}
   fireballSpeed: 10
   fireballCooldown: 10
+--- !u!95 &5461566860590566515
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4249984898427959598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c27803e9f293af43b7f13315cd0fe27, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4528485865609782588
 GameObject:
   m_ObjectHideFlags: 0
