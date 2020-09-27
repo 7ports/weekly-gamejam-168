@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemyHealthTracker : MonoBehaviour
 {
     public float health;
+    public bool wasDamaged = false;
     // Update is called once per frame
     void Update()
     {
@@ -22,5 +23,6 @@ public class enemyHealthTracker : MonoBehaviour
     }
     public void Damage(float damageValue){
         health -= damageValue;
+        wasDamaged = true;
     }
 }
