@@ -81,11 +81,11 @@ public class playerBehaviour : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "redGem") {
+        if(other.tag == "blueGem") {
             //TODO: disable other special combat scripts when picking up a particular gem
             GetComponent<fireballCombat>().enabled = true;
-            Destroy(other.gameObject);
-
+            other.GetComponent<Animator>().SetTrigger("break");
+            Destroy(other.gameObject, other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
         }
     }
 
