@@ -1,0 +1,2314 @@
+fileFormatVersion: 2
+guid: 62006c6cc2445354d88f25c6d9ef3d9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5757883818478440627
+    second: bluegem-idle_0
+  - first:
+      213: -8493527720406304677
+    second: bluegem-idle_1
+  - first:
+      213: -3967736843510288142
+    second: bluegem-idle_2
+  - first:
+      213: -6646820748899057273
+    second: bluegem-idle_3
+  - first:
+      213: -6832177721267978425
+    second: bluegem-idle_4
+  - first:
+      213: 4372638676298147530
+    second: bluegem-idle_5
+  - first:
+      213: 3243772186347883343
+    second: bluegem-idle_6
+  - first:
+      213: -1164455732088147010
+    second: bluegem-idle_7
+  - first:
+      213: -5539485060215486400
+    second: bluegem-idle_8
+  - first:
+      213: 1113222744069299987
+    second: bluegem-idle_9
+  - first:
+      213: -3036654431426745790
+    second: bluegem-idle_10
+  - first:
+      213: -6644030826183900024
+    second: bluegem-idle_11
+  - first:
+      213: -3225796125294510343
+    second: bluegem-idle_12
+  - first:
+      213: 1490992435575241941
+    second: bluegem-idle_13
+  - first:
+      213: -7758483654986434684
+    second: bluegem-idle_14
+  - first:
+      213: 1051930582236489093
+    second: bluegem-idle_15
+  - first:
+      213: 3629963806118685727
+    second: bluegem-idle_16
+  - first:
+      213: 3107909656754888127
+    second: bluegem-idle_17
+  - first:
+      213: -4552227992264065416
+    second: bluegem-idle_18
+  - first:
+      213: -5655232327826459110
+    second: bluegem-idle_19
+  - first:
+      213: 4478255813770594664
+    second: bluegem-idle_20
+  - first:
+      213: 3809231797884366504
+    second: bluegem-idle_21
+  - first:
+      213: -8025869829214899790
+    second: bluegem-idle_22
+  - first:
+      213: 2200816490495792946
+    second: bluegem-idle_23
+  - first:
+      213: -4925277482657785436
+    second: bluegem-idle_24
+  - first:
+      213: -8281990438943007573
+    second: bluegem-idle_25
+  - first:
+      213: 4753081182748150176
+    second: bluegem-idle_26
+  - first:
+      213: 3993799177097916222
+    second: bluegem-idle_27
+  - first:
+      213: -775863475390017874
+    second: bluegem-idle_28
+  - first:
+      213: 4393978199457149072
+    second: bluegem-idle_29
+  - first:
+      213: -2920097263594181647
+    second: bluegem-idle_30
+  - first:
+      213: -2115210026675120830
+    second: bluegem-idle_31
+  - first:
+      213: 3042098112146154705
+    second: bluegem-idle_32
+  - first:
+      213: -3188886785107561826
+    second: bluegem-idle_33
+  - first:
+      213: -4530375145487968892
+    second: bluegem-idle_34
+  - first:
+      213: -8330539185178321142
+    second: bluegem-idle_35
+  - first:
+      213: 8296591770719513846
+    second: bluegem-idle_36
+  - first:
+      213: 8580322483790325795
+    second: bluegem-idle_37
+  - first:
+      213: -3722878093610423013
+    second: bluegem-idle_38
+  - first:
+      213: 834054650220279017
+    second: bluegem-idle_39
+  - first:
+      213: 3694844664600994329
+    second: bluegem-idle_40
+  - first:
+      213: -4982459624221134444
+    second: bluegem-idle_41
+  - first:
+      213: 1765964791435756242
+    second: bluegem-idle_42
+  - first:
+      213: 3347200045651035361
+    second: bluegem-idle_43
+  - first:
+      213: 7270808194892928825
+    second: bluegem-idle_44
+  - first:
+      213: 5788834783883616450
+    second: bluegem-idle_45
+  - first:
+      213: -1700155067692861541
+    second: bluegem-idle_46
+  - first:
+      213: -2618632980004050536
+    second: bluegem-idle_47
+  - first:
+      213: -9153093618129863773
+    second: bluegem-idle_48
+  - first:
+      213: 8273939678343103153
+    second: bluegem-idle_49
+  - first:
+      213: -5059937783326830283
+    second: bluegem-idle_50
+  - first:
+      213: -4416811273644526382
+    second: bluegem-idle_51
+  - first:
+      213: 10250968147213008
+    second: bluegem-idle_52
+  - first:
+      213: 3274195580761830989
+    second: bluegem-idle_53
+  - first:
+      213: -8071207604565946654
+    second: bluegem-idle_54
+  - first:
+      213: 6494789858992864454
+    second: bluegem-idle_55
+  - first:
+      213: 8147890708515058923
+    second: bluegem-idle_56
+  - first:
+      213: -5139568149546580186
+    second: bluegem-idle_57
+  - first:
+      213: 6157074413631178634
+    second: bluegem-idle_58
+  - first:
+      213: -5692158375959579723
+    second: bluegem-idle_59
+  - first:
+      213: -7619811057323320847
+    second: bluegem-idle_60
+  - first:
+      213: -1068509807710618694
+    second: bluegem-idle_61
+  - first:
+      213: -1349627413272622460
+    second: bluegem-idle_62
+  - first:
+      213: 8540848536895582552
+    second: bluegem-idle_63
+  - first:
+      213: -8916979380003895604
+    second: bluegem-idle_64
+  - first:
+      213: 5468613387387569844
+    second: bluegem-idle_65
+  - first:
+      213: -7967120608823211036
+    second: bluegem-idle_66
+  - first:
+      213: -9176714694674150857
+    second: bluegem-idle_67
+  - first:
+      213: -2294699056859051886
+    second: bluegem-idle_68
+  - first:
+      213: 2289887073017425181
+    second: bluegem-idle_69
+  - first:
+      213: 6567141806293005801
+    second: bluegem-idle_70
+  - first:
+      213: -1975849635281196723
+    second: bluegem-idle_71
+  - first:
+      213: -4957760940025839695
+    second: bluegem-idle_72
+  - first:
+      213: -5214371999885958244
+    second: bluegem-idle_73
+  - first:
+      213: -2010721626790682094
+    second: bluegem-idle_74
+  - first:
+      213: 4841523453033114524
+    second: bluegem-idle_75
+  - first:
+      213: -5517175524406947885
+    second: bluegem-idle_76
+  - first:
+      213: 6545912635547222849
+    second: bluegem-idle_77
+  - first:
+      213: 3675137028764032340
+    second: bluegem-idle_78
+  - first:
+      213: 7229156090728386531
+    second: bluegem-idle_79
+  - first:
+      213: 2999232349452341402
+    second: bluegem-idle_80
+  - first:
+      213: 3734065084766734816
+    second: bluegem-idle_81
+  - first:
+      213: -498941033749179451
+    second: bluegem-idle_82
+  - first:
+      213: -2428054495864522169
+    second: bluegem-idle_83
+  - first:
+      213: 4824651948820757899
+    second: bluegem-idle_84
+  - first:
+      213: 6797566360337165964
+    second: bluegem-idle_85
+  - first:
+      213: -2432988219199418418
+    second: bluegem-idle_86
+  - first:
+      213: 5711308285719643292
+    second: bluegem-idle_87
+  - first:
+      213: -8203659679031594768
+    second: bluegem-idle_88
+  - first:
+      213: -6347241699395359623
+    second: bluegem-idle_89
+  - first:
+      213: 6826424059527130781
+    second: bluegem-idle_90
+  - first:
+      213: -6245783026649343876
+    second: bluegem-idle_91
+  - first:
+      213: 633153082114954805
+    second: bluegem-idle_92
+  - first:
+      213: 2169754920582219659
+    second: bluegem-idle_93
+  - first:
+      213: 1324027221430075642
+    second: bluegem-idle_94
+  - first:
+      213: -4358364638194682071
+    second: bluegem-idle_95
+  - first:
+      213: -5013087715540806111
+    second: bluegem-idle_96
+  - first:
+      213: 3831519609006615242
+    second: bluegem-idle_97
+  - first:
+      213: -3913119557041914286
+    second: bluegem-idle_98
+  - first:
+      213: -6829838838794217052
+    second: bluegem-idle_99
+  - first:
+      213: 3586020573951234050
+    second: bluegem-idle_100
+  - first:
+      213: -8112013887939397189
+    second: bluegem-idle_101
+  - first:
+      213: 4627366550720484421
+    second: bluegem-idle_102
+  - first:
+      213: 4523602310583122990
+    second: bluegem-idle_103
+  - first:
+      213: 5154113323493550765
+    second: bluegem-idle_104
+  - first:
+      213: -3107189606363973441
+    second: bluegem-idle_105
+  - first:
+      213: 999334949516504724
+    second: bluegem-idle_106
+  - first:
+      213: -1590707903970877809
+    second: bluegem-idle_107
+  - first:
+      213: -9138416397485094111
+    second: bluegem-idle_108
+  - first:
+      213: 2307220767485644596
+    second: bluegem-idle_109
+  - first:
+      213: -6695191379456766147
+    second: bluegem-idle_110
+  - first:
+      213: -1773695870546073789
+    second: bluegem-idle_111
+  - first:
+      213: 2297103678102674857
+    second: bluegem-idle_112
+  - first:
+      213: 2570571546405705805
+    second: bluegem-idle_113
+  - first:
+      213: 3973906331932365698
+    second: bluegem-idle_114
+  - first:
+      213: 4759636565747509798
+    second: bluegem-idle_115
+  - first:
+      213: 2858278892274682136
+    second: bluegem-idle_116
+  - first:
+      213: -6168043520459711920
+    second: bluegem-idle_117
+  - first:
+      213: 227484879330757447
+    second: bluegem-idle_118
+  - first:
+      213: 8029609860254793138
+    second: bluegem-idle_119
+  - first:
+      213: 7780997606029781350
+    second: bluegem-idle_120
+  - first:
+      213: -6696806697407885021
+    second: bluegem-idle_121
+  - first:
+      213: -3840706978767457661
+    second: bluegem-idle_122
+  - first:
+      213: 4636091915014791364
+    second: bluegem-idle_123
+  - first:
+      213: 6148949355020718526
+    second: bluegem-idle_124
+  - first:
+      213: 6228064975217751513
+    second: bluegem-idle_125
+  - first:
+      213: 2779939364092819502
+    second: bluegem-idle_126
+  - first:
+      213: -4478943808899492280
+    second: bluegem-idle_127
+  - first:
+      213: -6936786374283872830
+    second: bluegem-idle_128
+  - first:
+      213: 380000822419716046
+    second: bluegem-idle_129
+  - first:
+      213: -2180228340715421043
+    second: bluegem-idle_130
+  - first:
+      213: 7111023442211722764
+    second: bluegem-idle_131
+  - first:
+      213: 5078274276125397282
+    second: bluegem-idle_132
+  - first:
+      213: -926601227131499506
+    second: bluegem-idle_133
+  - first:
+      213: 5189066541375284143
+    second: bluegem-idle_134
+  - first:
+      213: -2612394957517273064
+    second: bluegem-idle_135
+  - first:
+      213: -1115969016652889323
+    second: bluegem-idle_136
+  - first:
+      213: 741928973853040525
+    second: bluegem-idle_137
+  - first:
+      213: -4470619163710444276
+    second: bluegem-idle_138
+  - first:
+      213: 6302426870017220357
+    second: bluegem-idle_139
+  - first:
+      213: 5968316817877824049
+    second: bluegem-idle_140
+  - first:
+      213: 853582135989605449
+    second: bluegem-idle_141
+  - first:
+      213: 7761498223365344546
+    second: bluegem-idle_142
+  - first:
+      213: -9161860541586938660
+    second: bluegem-idle_143
+  - first:
+      213: -4660799116147102413
+    second: bluegem-idle_144
+  - first:
+      213: -4639172025226934437
+    second: bluegem-idle_145
+  - first:
+      213: 4801960510761540326
+    second: bluegem-idle_146
+  - first:
+      213: -9032121400356950505
+    second: bluegem-idle_147
+  - first:
+      213: 8478518122406251278
+    second: bluegem-idle_148
+  - first:
+      213: -470156457790806913
+    second: bluegem-idle_149
+  - first:
+      213: -1341075358974613585
+    second: bluegem-idle_150
+  - first:
+      213: 5743805797398439197
+    second: bluegem-idle_151
+  - first:
+      213: -5626493438416450226
+    second: bluegem-idle_152
+  - first:
+      213: -5608373238013044451
+    second: bluegem-idle_153
+  - first:
+      213: 1486646981848442499
+    second: bluegem-idle_154
+  - first:
+      213: 1931296819739903949
+    second: bluegem-idle_155
+  - first:
+      213: 656284737584017247
+    second: bluegem-idle_156
+  - first:
+      213: -1569370444052430585
+    second: bluegem-idle_157
+  - first:
+      213: -231483444381353805
+    second: bluegem-idle_158
+  - first:
+      213: -8665892004493292810
+    second: bluegem-idle_159
+  - first:
+      213: 6758058672479217076
+    second: bluegem-idle_160
+  - first:
+      213: -6717651867850695112
+    second: bluegem-idle_161
+  - first:
+      213: 4374042437261259017
+    second: bluegem-idle_162
+  - first:
+      213: -5984891049795341660
+    second: bluegem-idle_163
+  - first:
+      213: 7808636586602654094
+    second: bluegem-idle_164
+  - first:
+      213: -137282426612610525
+    second: bluegem-idle_165
+  - first:
+      213: -6563028004727527030
+    second: bluegem-idle_166
+  - first:
+      213: 3879681924423777222
+    second: bluegem-idle_167
+  - first:
+      213: 678101615179011142
+    second: bluegem-idle_168
+  - first:
+      213: -1289095007320921272
+    second: bluegem-idle_169
+  - first:
+      213: -2154077846052122517
+    second: bluegem-idle_170
+  - first:
+      213: -7874725490113598373
+    second: bluegem-idle_171
+  - first:
+      213: 4530993789751918056
+    second: bluegem-idle_172
+  - first:
+      213: -8387576624710143217
+    second: bluegem-idle_173
+  - first:
+      213: -8836454898980839476
+    second: bluegem-idle_174
+  - first:
+      213: -1108215847240211438
+    second: bluegem-idle_175
+  - first:
+      213: -3768331791085530935
+    second: bluegem-idle_176
+  - first:
+      213: 3229022584362595830
+    second: bluegem-idle_177
+  - first:
+      213: -2233379938586403541
+    second: bluegem-idle_178
+  - first:
+      213: 589483691220451546
+    second: bluegem-idle_179
+  - first:
+      213: 4530467488678759629
+    second: bluegem-idle_180
+  - first:
+      213: -4208318182950271362
+    second: bluegem-idle_181
+  - first:
+      213: -2281562280170285091
+    second: bluegem-idle_182
+  - first:
+      213: 1835457803285905424
+    second: bluegem-idle_183
+  - first:
+      213: -4717119875864590946
+    second: bluegem-idle_184
+  - first:
+      213: -4660445876411985405
+    second: bluegem-idle_185
+  - first:
+      213: 1837157428991084141
+    second: bluegem-idle_186
+  - first:
+      213: 2297787374719540672
+    second: bluegem-idle_187
+  - first:
+      213: 2256265169830186321
+    second: bluegem-idle_188
+  - first:
+      213: -6181917352952092764
+    second: bluegem-idle_189
+  - first:
+      213: -2359225325023238814
+    second: bluegem-idle_190
+  - first:
+      213: -4679631775952573050
+    second: bluegem-idle_191
+  - first:
+      213: 6542816314742480154
+    second: bluegem-idle_192
+  - first:
+      213: 492423127975020569
+    second: bluegem-idle_193
+  - first:
+      213: -162792215474305996
+    second: bluegem-idle_194
+  - first:
+      213: -2154633074296018806
+    second: bluegem-idle_195
+  - first:
+      213: -5974170616379869478
+    second: bluegem-idle_196
+  - first:
+      213: 6999976251425045137
+    second: bluegem-idle_197
+  - first:
+      213: 6042935340931771249
+    second: bluegem-idle_198
+  - first:
+      213: 4430669400847217020
+    second: bluegem-idle_199
+  - first:
+      213: 576543525344280985
+    second: bluegem-idle_200
+  - first:
+      213: -3782850123475347211
+    second: bluegem-idle_201
+  - first:
+      213: 7891531409067338653
+    second: bluegem-idle_202
+  - first:
+      213: 4754400010186930198
+    second: bluegem-idle_203
+  - first:
+      213: 1226009614532936552
+    second: bluegem-idle_204
+  - first:
+      213: 954026041478879998
+    second: bluegem-idle_205
+  - first:
+      213: 7684287422260639050
+    second: bluegem-idle_206
+  - first:
+      213: -9206014940803487477
+    second: bluegem-idle_207
+  - first:
+      213: 7209425972467693551
+    second: bluegem-idle_208
+  - first:
+      213: 5270610079054999506
+    second: bluegem-idle_209
+  - first:
+      213: -3198798458210625256
+    second: bluegem-idle_210
+  - first:
+      213: 2087210121184833313
+    second: bluegem-idle_211
+  - first:
+      213: 5970623996462580113
+    second: bluegem-idle_212
+  - first:
+      213: 288812075312967984
+    second: bluegem-idle_213
+  - first:
+      213: -7552049914078938774
+    second: bluegem-idle_214
+  - first:
+      213: -2031124996063977101
+    second: bluegem-idle_215
+  - first:
+      213: 3975136624311944993
+    second: bluegem-idle_216
+  - first:
+      213: -2493383730507747564
+    second: bluegem-idle_217
+  - first:
+      213: -4796882174023108924
+    second: bluegem-idle_218
+  - first:
+      213: -8336962456231157302
+    second: bluegem-idle_219
+  - first:
+      213: 3153696280359545627
+    second: bluegem-idle_220
+  - first:
+      213: 7294679519458791727
+    second: bluegem-idle_221
+  - first:
+      213: 3072593351823859936
+    second: bluegem-idle_222
+  - first:
+      213: -3183480444419811871
+    second: bluegem-idle_223
+  - first:
+      213: -2990885100860535497
+    second: bluegem-idle_224
+  - first:
+      213: -4621016670054202812
+    second: bluegem-idle_225
+  - first:
+      213: -1701351729812217702
+    second: bluegem-idle_226
+  - first:
+      213: 4026800367271246537
+    second: bluegem-idle_227
+  - first:
+      213: -1899149769747930317
+    second: bluegem-idle_228
+  - first:
+      213: -8574524274217846719
+    second: bluegem-idle_229
+  - first:
+      213: 7024796406264293055
+    second: bluegem-idle_230
+  - first:
+      213: 3479289932491294198
+    second: bluegem-idle_231
+  - first:
+      213: 3669524185988164223
+    second: bluegem-idle_232
+  - first:
+      213: 4997416368281696076
+    second: bluegem-idle_233
+  - first:
+      213: -1245931414753580559
+    second: bluegem-idle_234
+  - first:
+      213: 680363025002606926
+    second: bluegem-idle_235
+  - first:
+      213: -4929352365914717510
+    second: bluegem-idle_236
+  - first:
+      213: -3234268454707698960
+    second: bluegem-idle_237
+  - first:
+      213: 1473503297687407573
+    second: bluegem-idle_238
+  - first:
+      213: 940681115538845631
+    second: bluegem-idle_239
+  - first:
+      213: -5800677826522913358
+    second: bluegem-idle_0
+  - first:
+      213: -1950309536657658820
+    second: bluegem-idle_1
+  - first:
+      213: 7953335301898905515
+    second: bluegem-idle_2
+  - first:
+      213: 3492361047323740430
+    second: bluegem-idle_3
+  - first:
+      213: 8296184868057408413
+    second: bluegem-idle_4
+  - first:
+      213: 1758829714573759826
+    second: bluegem-idle_5
+  - first:
+      213: 6534637471005343694
+    second: bluegem-idle_6
+  - first:
+      213: 5548117449241375219
+    second: bluegem-idle_7
+  - first:
+      213: 764526672322009926
+    second: bluegem-idle_8
+  - first:
+      213: -5054247235422929522
+    second: bluegem-idle_9
+  - first:
+      213: 7720092348388819244
+    second: bluegem-idle_10
+  - first:
+      213: 6802494406795237595
+    second: bluegem-idle_11
+  - first:
+      213: -384280605753550646
+    second: bluegem-idle_12
+  - first:
+      213: -85223971688735549
+    second: bluegem-idle_13
+  - first:
+      213: 2775160684564401612
+    second: bluegem-idle_14
+  - first:
+      213: -3138061336666691747
+    second: bluegem-idle_15
+  - first:
+      213: 2721010483343164199
+    second: bluegem-idle_16
+  - first:
+      213: -6428798120324523508
+    second: bluegem-idle_17
+  - first:
+      213: -4697235997407926691
+    second: bluegem-idle_18
+  - first:
+      213: 9124956801520772795
+    second: bluegem-idle_19
+  - first:
+      213: 4422597448800577084
+    second: bluegem-idle_20
+  - first:
+      213: -6286626097206610970
+    second: bluegem-idle_21
+  - first:
+      213: 4690782489131240692
+    second: bluegem-idle_22
+  - first:
+      213: -5420026254951768246
+    second: bluegem-idle_23
+  - first:
+      213: 2970541937528446384
+    second: bluegem-idle_24
+  - first:
+      213: 4057053873286488522
+    second: bluegem-idle_25
+  - first:
+      213: -7605697187473477273
+    second: bluegem-idle_26
+  - first:
+      213: -8989758174432621973
+    second: bluegem-idle_27
+  - first:
+      213: -2707084656757875522
+    second: bluegem-idle_28
+  - first:
+      213: 3949425469249597781
+    second: bluegem-idle_29
+  - first:
+      213: -4925144228823912398
+    second: bluegem-idle_30
+  - first:
+      213: 127214164219699817
+    second: bluegem-idle_31
+  - first:
+      213: 6377551955930189788
+    second: bluegem-idle_32
+  - first:
+      213: 5987221352737814850
+    second: bluegem-idle_33
+  - first:
+      213: 2729095194397955209
+    second: bluegem-idle_34
+  - first:
+      213: -2727035344230652916
+    second: bluegem-idle_35
+  - first:
+      213: 7010526576975654716
+    second: bluegem-idle_36
+  - first:
+      213: 4954358641258703014
+    second: bluegem-idle_37
+  - first:
+      213: -5760816848163786860
+    second: bluegem-idle_38
+  - first:
+      213: 7959169071712903217
+    second: bluegem-idle_39
+  - first:
+      213: -7350526875546357342
+    second: bluegem-idle_40
+  - first:
+      213: 6598535018898418317
+    second: bluegem-idle_41
+  - first:
+      213: 3264231565812472617
+    second: bluegem-idle_42
+  - first:
+      213: 2334768820099437685
+    second: bluegem-idle_43
+  - first:
+      213: 6349757153855139412
+    second: bluegem-idle_44
+  - first:
+      213: 4341573294349342287
+    second: bluegem-idle_45
+  - first:
+      213: 5298744191464092344
+    second: bluegem-idle_46
+  - first:
+      213: -2399460064129069457
+    second: bluegem-idle_47
+  - first:
+      213: -239281928816649817
+    second: bluegem-idle_48
+  - first:
+      213: 8558312763599010224
+    second: bluegem-idle_49
+  - first:
+      213: 15235004421421064
+    second: bluegem-idle_50
+  - first:
+      213: -9102134612225213036
+    second: bluegem-idle_51
+  - first:
+      213: -7818436183519584005
+    second: bluegem-idle_52
+  - first:
+      213: -7178130649823627496
+    second: bluegem-idle_53
+  - first:
+      213: -5710104903597595391
+    second: bluegem-idle_54
+  - first:
+      213: -3740423620437898735
+    second: bluegem-idle_55
+  - first:
+      213: 9141908982726102480
+    second: bluegem-idle_56
+  - first:
+      213: 477686599186659499
+    second: bluegem-idle_57
+  - first:
+      213: -1660569464070043494
+    second: bluegem-idle_58
+  - first:
+      213: -7582508385782938660
+    second: bluegem-idle_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bluegem-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5ed95004adf7fa0800000000000000
+      internalID: -5800677826522913358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca6714fcb1fe4e0800000000000000
+      internalID: -1950309536657658820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba72249815cef5e60800000000000000
+      internalID: 7953335301898905515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0984258edb577030800000000000000
+      internalID: 3492361047323740430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d936883be28f12370800000000000000
+      internalID: 8296184868057408413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25512958e4e986810800000000000000
+      internalID: 1758829714573759826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffa3b6822bfaa50800000000000000
+      internalID: 6534637471005343694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1bd26cc6fdefc40800000000000000
+      internalID: 5548117449241375219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b901535f42c9a00800000000000000
+      internalID: 764526672322009926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dbd9dfae4bbd9b0800000000000000
+      internalID: -5054247235422929522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c214dea8617432b60800000000000000
+      internalID: 7720092348388819244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89c9f2f90576e50800000000000000
+      internalID: 6802494406795237595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8dcf733d2caaaf0800000000000000
+      internalID: -384280605753550646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc1521df3931def0800000000000000
+      internalID: -85223971688735549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd471e60f9538620800000000000000
+      internalID: 2775160684564401612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57289827dd5374d0800000000000000
+      internalID: -3138061336666691747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72388c93e98f2c520800000000000000
+      internalID: 2721010483343164199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a9b59bb2258c6a0800000000000000
+      internalID: -6428798120324523508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a2545fb010deb0800000000000000
+      internalID: -4697235997407926691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62e696ddb52ae70800000000000000
+      internalID: 9124956801520772795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36ae40a2f8306d30800000000000000
+      internalID: 4422597448800577084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3bc406fda61c8a0800000000000000
+      internalID: -6286626097206610970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc4a4f22d1091140800000000000000
+      internalID: 4690782489131240692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f1f4076d238c4b0800000000000000
+      internalID: -5420026254951768246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd98c0572c793920800000000000000
+      internalID: 2970541937528446384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12dd7a00d8d4830800000000000000
+      internalID: 4057053873286488522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b47764b2237690800000000000000
+      internalID: -7605697187473477273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a8744f196fd3380800000000000000
+      internalID: -8989758174432621973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc5901f8d08e6ad0800000000000000
+      internalID: -2707084656757875522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551b0811a8d2fc630800000000000000
+      internalID: 3949425469249597781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230b26d1b6f56abb0800000000000000
+      internalID: -4925144228823912398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a6bcbb94f3c100800000000000000
+      internalID: 127214164219699817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf01d5d6bd918850800000000000000
+      internalID: 6377551955930189788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24932914912e61350800000000000000
+      internalID: 5987221352737814850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984d054be91bfd520800000000000000
+      internalID: 2729095194397955209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0462398dcf972ad0800000000000000
+      internalID: -2727035344230652916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa11547c46a4160800000000000000
+      internalID: 7010526576975654716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8ac165fea61c440800000000000000
+      internalID: 4954358641258703014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fac1549977d00b0800000000000000
+      internalID: -5760816848163786860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13029bae916a47e60800000000000000
+      internalID: 7959169071712903217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1f81f50ceadf990800000000000000
+      internalID: -7350526875546357342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a6a6f93a4b29b50800000000000000
+      internalID: 6598535018898418317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b9ed08051ec4d20800000000000000
+      internalID: 3264231565812472617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5745faa2fd3c66020800000000000000
+      internalID: 2334768820099437685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ee78d2d7ede1850800000000000000
+      internalID: 6349757153855139412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d30898ed504c30800000000000000
+      internalID: 4341573294349342287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b1e7a4cbe88940800000000000000
+      internalID: 5298744191464092344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec9d8d8c763bed0800000000000000
+      internalID: -2399460064129069457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a996bf7a56edacf0800000000000000
+      internalID: -239281928816649817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b2075d1c35c670800000000000000
+      internalID: 8558312763599010224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808b0b2e720263000800000000000000
+      internalID: 15235004421421064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d378c9bc8bea180800000000000000
+      internalID: -9102134612225213036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0214607b55f7390800000000000000
+      internalID: -7818436183519584005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8173be19438226c90800000000000000
+      internalID: -7178130649823627496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10569d6f7d1a1c0b0800000000000000
+      internalID: -5710104903597595391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a815ae888571cc0800000000000000
+      internalID: -3740423620437898735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd875ca8c59ede70800000000000000
+      internalID: 9141908982726102480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba83c7a5e6511a600800000000000000
+      internalID: 477686599186659499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a988e39ded874f8e0800000000000000
+      internalID: -1660569464070043494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluegem-idle_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ccf60cc485c690800000000000000
+      internalID: -7582508385782938660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

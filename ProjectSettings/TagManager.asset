@@ -12,6 +12,7 @@ TagManager:
   - Wall
   - Fireball
   - redGem
+  - blueGem
   layers:
   - Default
   - TransparentFX
