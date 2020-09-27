@@ -7,7 +7,7 @@ public class orcBehaviour : MonoBehaviour
     public float attackDelay = 2f;
     public Transform attackPoint;
     public float attackRange = 2.0f;
-    public float moveSpeed = 0.5f;
+    public float moveSpeed = 1f;
     float waitForMove = 0f;
 
     public float moveWaitMin = 1f;
@@ -17,7 +17,7 @@ public class orcBehaviour : MonoBehaviour
     float facing = 1f;
     public float visionDistance = 5f;
     float nextAttackTime = 0f;
-
+    public float aggroMoveSpeed = 2f;
     public LayerMask searchForPlayerLayers;
 
     private void Start()
@@ -84,16 +84,16 @@ public class orcBehaviour : MonoBehaviour
             if (checkForPlayer.collider.tag == "Player")
             {
                 aggro = true;
-                Debug.Log("orc mad");
             }
         }
         if(GetComponent<enemyHealthTracker>().wasDamaged)
             aggro = true;
 
 
-        if(aggro)
+        if(aggro){
             GetComponent<Animator>().SetTrigger("aggrod");
-
+            moveSpeed = aggroMoveSpeed;
+        }
     }
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.transform.tag == "Wall"){
