@@ -76,10 +76,7 @@ public class playerBehaviour : MonoBehaviour
             if (collider.gameObject.tag == "Spike")
                 HUDUI.GetComponent<healthUI>().Health = 0;
             if (collider.gameObject.tag == "Enemy"){
-                HUDUI.GetComponent<healthUI>().Health -= 1;
-                invincible = true;
-                Invoke("resetInvincibility", invincibilityDuration);
-                InvokeRepeating("flickerSprite", 0.0f, 0.3f);
+                takeDamage(1);
             }
         }
     }
@@ -100,5 +97,11 @@ public class playerBehaviour : MonoBehaviour
     }
     private void flickerSprite(){
         GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
+    }
+    public void takeDamage(int damage){
+        HUDUI.GetComponent<healthUI>().Health -= damage;
+        invincible = true;
+        Invoke("resetInvincibility", invincibilityDuration);
+        InvokeRepeating("flickerSprite", 0.0f, 0.3f);
     }
 }

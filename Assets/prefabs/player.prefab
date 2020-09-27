@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 570479540}
   - component: {fileID: -5993859893525620197}
   - component: {fileID: 5461566860590566515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -166,6 +166,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
+  attackDelay: 0.4
 --- !u!114 &-5993859893525620197
 MonoBehaviour:
   m_ObjectHideFlags: 0

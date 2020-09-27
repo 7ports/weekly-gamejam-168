@@ -29,7 +29,7 @@ public class healthUI : MonoBehaviour
                 images[i].enabled = true;
         }
 
-        if (health == 0){
+        if (health <= 0){
             
             gameOverCanvas.SetActive(true);
             mainCamera.GetComponent<shakeBehaviour>().stopShake();
