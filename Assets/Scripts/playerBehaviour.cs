@@ -33,7 +33,7 @@ public class playerBehaviour : MonoBehaviour
     {
        horizontalInput = Input.GetAxisRaw("Horizontal");
        isJump = Input.GetKeyDown(KeyCode.Space);
-       Debug.Log(isGrounded());
+       GetComponent<Animator>().SetBool("isGrounded", isGrounded());
        if(isJump && isGrounded()){
             Debug.Log("jumping");
             rb.AddForce(Vector2.up * jumpMult, ForceMode2D.Impulse);
