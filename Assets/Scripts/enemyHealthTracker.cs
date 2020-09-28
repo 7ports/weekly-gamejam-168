@@ -19,10 +19,21 @@ public class enemyHealthTracker : MonoBehaviour
         if (other.gameObject.tag == "Fireball"){
             Damage(3.0f);
             Destroy(other.gameObject);
+            GetComponent<SpriteRenderer>().color = Color.red;
+            spriteReset();
         }
     }
     public void Damage(float damageValue){
         health -= damageValue;
         wasDamaged = true;
+    }
+
+    public void spriteReset(){
+        Invoke("resetSpriteColor", 0.25f);
+    }
+    void resetSpriteColor(){
+
+        GetComponent<SpriteRenderer>().color = Color.white;
+
     }
 }

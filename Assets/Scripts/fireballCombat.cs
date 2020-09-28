@@ -20,6 +20,7 @@ public class fireballCombat : MonoBehaviour
         if (cooldownLeft <= 0)
         {
             GameObject newFireball = GameObject.Instantiate(fireball, transform.position + transform.right, Quaternion.identity);
+            GetComponent<Animator>().SetTrigger("fireball");
             newFireball.GetComponent<Rigidbody2D>().velocity = transform.right * fireballSpeed;
             cooldownLeft = fireballCooldown;
         }

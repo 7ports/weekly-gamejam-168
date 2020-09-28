@@ -22,6 +22,7 @@ public class orcBehaviour : MonoBehaviour
 
     private void Start()
     {
+        //make it so that the player can walk through the orc
         Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>());
     }
     bool aggro = false;
@@ -29,6 +30,16 @@ public class orcBehaviour : MonoBehaviour
     {
         if (!aggro)
         {
+            RaycastHit2D checkForPlayer = Physics2D.Raycast(transform.position - new Vector3(0, 0.5f, 0), transform.right, visionDistance, searchForPlayerLayers);
+            if (checkForPlayer.collider != null)
+            {
+                if (checkForPlayer.collider.tag == "Player")
+                {
+                    aggro = true;
+                }
+            }
+        if(GetComponent<enemyHealthTracker>().wasDamaged)
+            aggro = true;
             if ((Time.time >= waitForMove))
             {
                 isMoving = true;
@@ -78,16 +89,6 @@ public class orcBehaviour : MonoBehaviour
         }
 
 
-        RaycastHit2D checkForPlayer = Physics2D.Raycast(transform.position - new Vector3(0, 0.5f, 0), transform.right, visionDistance, searchForPlayerLayers);
-        if (checkForPlayer.collider != null)
-        {
-            if (checkForPlayer.collider.tag == "Player")
-            {
-                aggro = true;
-            }
-        }
-        if(GetComponent<enemyHealthTracker>().wasDamaged)
-            aggro = true;
 
 
         if(aggro){
