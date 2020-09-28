@@ -15,7 +15,7 @@ public class axeCombat : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.LeftAlt))
+            if (Input.GetKeyDown(KeyCode.S))
             {
                 GetComponent<Animator>().SetTrigger("axeAttack");
                 Invoke("axeAttack", 0.7f); //attack will come out after a small delay, TODO: start attack animation here

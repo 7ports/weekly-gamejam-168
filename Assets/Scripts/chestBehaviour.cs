@@ -30,7 +30,7 @@ public class chestBehaviour : MonoBehaviour
     }
 
     private void OnTriggerStay2D(Collider2D other) {
-        if(other.CompareTag("Player") && Input.GetKey(KeyCode.F) && !isOpen && !isMimic){
+        if(other.CompareTag("Player") && Input.GetKey(KeyCode.W) && !isOpen && !isMimic){
             if(Random.Range(0f,1f) < 0.9){
             GetComponent<Animator>().SetTrigger("isOpen");
             GameObject[] possibleObjects = { blueGem, redGem, heart };
