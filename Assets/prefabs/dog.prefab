@@ -165,7 +165,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 513
   moveSpeed: 2
-  aggroMoveSpeed: 4
+  aggroMoveSpeed: 5
 --- !u!95 &4875478940841942404
 Animator:
   serializedVersion: 3

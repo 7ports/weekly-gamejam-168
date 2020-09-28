@@ -17,8 +17,8 @@ public class playerCombat : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftControl))
             {
                 GetComponent<Animator>().SetTrigger("attack");
-                Invoke("basicAttack", attackDelay); //attack will come out after a small delay, TODO: start attack animation here
-                nextAttackTime = Time.time + attackDelay;
+                Invoke("basicAttack", 0.4f); //attack will come out after a small delay, TODO: start attack animation here
+                nextAttackTime = Time.time + 0.4f;
             }
         }
     }

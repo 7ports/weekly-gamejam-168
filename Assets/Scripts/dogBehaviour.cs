@@ -42,12 +42,12 @@ public class dogBehaviour : MonoBehaviour
                 facing = 1f;
             }
 
-            RaycastHit2D checkFace= Physics2D.Raycast(transform.position, transform.right, 1.5f, searchForPlayerLayers);
+            RaycastHit2D checkFace= Physics2D.Raycast(transform.position, transform.right, 2f, searchForPlayerLayers);
             if (checkFace.collider != null && isGrounded())
             {
                 if (checkFace.collider.tag == "Player" || checkFace.collider.tag == "Wall")
                 {
-                    rb.AddForce(Vector2.up * 0.3f, ForceMode2D.Impulse);
+                    rb.AddForce(Vector2.up * 0.28f, ForceMode2D.Impulse);
                 }
             }
 
