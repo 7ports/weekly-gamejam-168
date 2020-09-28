@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 659052434141433533}
   - component: {fileID: 659052434141433532}
   - component: {fileID: 301538662}
+  - component: {fileID: 7638152798791295539}
   m_Layer: 0
   m_Name: chest
   m_TagString: Enemy
@@ -98,8 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80a57af2dac97b541830a092d1a73461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chestClosedSprite: {fileID: 6292683311950574835, guid: 61271f5d058777b4c9090d78f352959c, type: 3}
-  chestOpenSprite: {fileID: -337247863352378433, guid: 61271f5d058777b4c9090d78f352959c, type: 3}
   blueGem: {fileID: 6446916622506571834, guid: 582fcd9bae2239a4c9f10bd9aabf84d3, type: 3}
   redGem: {fileID: 2510205073233244303, guid: b679c6a134b13ca41b8065453897ee6c, type: 3}
   heart: {fileID: 1809127239728984417, guid: 1592fdf68a982b448b4d38e0f043facb, type: 3}
@@ -170,3 +169,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7638152798791295539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659052434141433535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba58ecfc53a15b74b9ef7b53643e8fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  wasDamaged: 0

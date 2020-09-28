@@ -49,7 +49,6 @@ public class shakeBehaviour : MonoBehaviour
 
     public void TriggerShake()
     {
-        Debug.Log("shaking");
         shakeDuration = 0.5f;
     }
     public void stopShake(){

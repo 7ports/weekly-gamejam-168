@@ -16,7 +16,7 @@ public class enemyHealthTracker : MonoBehaviour
 
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag == "Fireball"){
+        if (other.gameObject.tag == "Fireball" && (this.enabled == true)){
             Damage(3.0f);
             Destroy(other.gameObject);
             GetComponent<SpriteRenderer>().color = Color.red;

@@ -13,7 +13,7 @@ public class chestBehaviour : MonoBehaviour
     void Start()
     {
         chestSprite = GetComponent<SpriteRenderer>();
-        chestSprite.sprite = chestClosedSprite;
+        GetComponent<enemyHealthTracker>().enabled = false;
     }
 
     // Update is called once per frame
@@ -35,7 +35,6 @@ public class chestBehaviour : MonoBehaviour
             GetComponent<Animator>().SetTrigger("isOpen");
             GameObject[] possibleObjects = { blueGem, redGem, heart };
             int i = Random.Range(0, possibleObjects.Length);
-            Debug.Log(i);
             if(other.transform.position.x > transform.position.x)
                 GameObject.Instantiate(possibleObjects[i], transform.position + Vector3.left, Quaternion.identity);
             else if(other.transform.position.x <= transform.position.x)
@@ -47,6 +46,7 @@ public class chestBehaviour : MonoBehaviour
                 GetComponent<BoxCollider2D>().isTrigger = false;
                 GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
                 GetComponent<Rigidbody2D>().freezeRotation = true;
+                GetComponent<enemyHealthTracker>().enabled = true;
                 
             }
         }
@@ -54,6 +54,7 @@ public class chestBehaviour : MonoBehaviour
 
     private void makeEnemy(){
         gameObject.layer = 8;
+        gameObject.tag = "Enemy";
         isMimic = true;
 
     }
@@ -62,7 +63,6 @@ public class chestBehaviour : MonoBehaviour
             moveSpeed *= -1;
         }
         if(other.transform.tag == "EnemyTurn"){
-            Debug.Log("blep");
             moveSpeed *= -1;
         }
     }

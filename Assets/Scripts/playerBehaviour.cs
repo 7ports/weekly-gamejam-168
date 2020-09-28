@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerBehaviour : MonoBehaviour
 {
@@ -35,7 +36,6 @@ public class playerBehaviour : MonoBehaviour
        isJump = Input.GetKeyDown(KeyCode.Space);
        GetComponent<Animator>().SetBool("isGrounded", isGrounded());
        if(isJump && isGrounded()){
-            Debug.Log("jumping");
             rb.AddForce(Vector2.up * jumpMult, ForceMode2D.Impulse);
         }
     }
@@ -88,6 +88,7 @@ public class playerBehaviour : MonoBehaviour
             GetComponent<axeCombat>().enabled = false;
             other.GetComponent<Animator>().SetTrigger("break");
             Destroy(other.gameObject, other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            HUDUI.GetComponentInChildren<Text>().text = "Special Attack : <FIREBALL>";
         }
         else if(other.tag == "blueGem") {
             //TODO: disable other special combat scripts when picking up a particular gem
@@ -95,6 +96,7 @@ public class playerBehaviour : MonoBehaviour
             GetComponent<fireballCombat>().enabled = false;
             other.GetComponent<Animator>().SetTrigger("break");
             Destroy(other.gameObject, other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            HUDUI.GetComponentInChildren<Text>().text = "Special Attack : <HEAVY SWING>";
         }
     }
 

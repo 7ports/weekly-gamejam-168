@@ -1,28 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class fireballCombat : MonoBehaviour
 {
     public GameObject fireball;
     public float fireballSpeed;
-    public float fireballCooldown;
-    float cooldownLeft = 0.0f;
+    float nextAttackTime = 0.0f;
+    float initAttackTime = 0.0f;
+    public GameObject coolDownBar;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.R))
             fireballAttack();    
-        if(cooldownLeft > 0)
-            cooldownLeft -= Time.deltaTime;
+        
+        coolDownBar.GetComponent<Slider>().value = Mathf.Lerp(0, 1, (Time.time-initAttackTime)/(nextAttackTime-initAttackTime));
     }
 
     void fireballAttack(){
-        if (cooldownLeft <= 0)
+        if (Time.time >= nextAttackTime)
         {
             GameObject newFireball = GameObject.Instantiate(fireball, transform.position + transform.right, Quaternion.identity);
             GetComponent<Animator>().SetTrigger("fireball");
             newFireball.GetComponent<Rigidbody2D>().velocity = transform.right * fireballSpeed;
-            cooldownLeft = fireballCooldown;
+            nextAttackTime = Time.time + 5.0f;
+            initAttackTime = Time.time;
         }
     }
 }

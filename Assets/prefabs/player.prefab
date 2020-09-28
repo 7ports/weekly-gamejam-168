@@ -107,7 +107,6 @@ GameObject:
   - component: {fileID: -5993859893525620197}
   - component: {fileID: 5461566860590566515}
   - component: {fileID: 4249984898348785353}
-  - component: {fileID: 2628841221389053245}
   m_Layer: 9
   m_Name: player
   m_TagString: Player
@@ -315,25 +314,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &2628841221389053245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4249984898427959598}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f289b35fc4279347968a45004dc41ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axeAttackPoint1: {fileID: 0}
-  axeAttackPoint2: {fileID: 0}
-  axeAttackPoint3: {fileID: 0}
-  attackRange: 0.5
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 256
+  coolDownBar: {fileID: 0}
 --- !u!1 &4528485865609782588
 GameObject:
   m_ObjectHideFlags: 0

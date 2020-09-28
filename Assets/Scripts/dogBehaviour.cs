@@ -76,7 +76,6 @@ public class dogBehaviour : MonoBehaviour
         RaycastHit2D hitGround = Physics2D.Raycast(transform.position + new Vector3(0, -0.53f, 0), Vector2.down, 0.001f); //raycasting to try to hit a platform
         if ((hitGround.collider != null))
         {
-            Debug.Log(hitGround.collider.tag);
             if ((hitGround.transform.tag == "Wall") || (hitGround.transform.tag == "Platform"))
                 return true;
             else
