@@ -29,6 +29,8 @@ public class playerCombat : MonoBehaviour
         //Damage enemies
         foreach (Collider2D enemy in hitEnemies){
             enemy.GetComponent<enemyHealthTracker>().Damage(1.0f);
+            enemy.GetComponent<SpriteRenderer>().color = Color.red;
+            enemy.GetComponent<enemyHealthTracker>().spriteReset();
         }
     }
 

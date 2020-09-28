@@ -215,6 +215,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: hit
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -236,7 +242,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: orc-attack
-  m_Speed: 0.2
+  m_Speed: 0.18
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6503745678090515760}
@@ -299,10 +305,10 @@ AnimatorStateMachine:
     m_Position: {x: 220, y: 340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6001917828441240203}
-    m_Position: {x: 260, y: 30, z: 0}
+    m_Position: {x: 260, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1147404802767127185}
-    m_Position: {x: 380, y: 100, z: 0}
+    m_Position: {x: 660, y: -80, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -8625954077509030228}
