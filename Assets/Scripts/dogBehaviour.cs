@@ -28,6 +28,8 @@ public class dogBehaviour : MonoBehaviour
                     aggro = true;
                 }
             }
+            if(GetComponent<enemyHealthTracker>().wasDamaged)
+                aggro = true;
         }
         else if(aggro){
             //play aggro animation

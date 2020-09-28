@@ -38,8 +38,9 @@ public class orcBehaviour : MonoBehaviour
                     aggro = true;
                 }
             }
-        if(GetComponent<enemyHealthTracker>().wasDamaged)
-            aggro = true;
+            if(GetComponent<enemyHealthTracker>().wasDamaged)
+                aggro = true;
+
             if ((Time.time >= waitForMove))
             {
                 isMoving = true;

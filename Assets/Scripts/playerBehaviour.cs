@@ -112,4 +112,7 @@ public class playerBehaviour : MonoBehaviour
         Invoke("resetInvincibility", invincibilityDuration);
         InvokeRepeating("flickerSprite", 0.0f, 0.3f);
     }
+    public void heal(int healing){
+        HUDUI.GetComponent<healthUI>().Health += healing;
+    }
 }

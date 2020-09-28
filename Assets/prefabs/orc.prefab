@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba58ecfc53a15b74b9ef7b53643e8fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 10
   wasDamaged: 0
 --- !u!50 &8731322380546048474
 Rigidbody2D:
@@ -217,7 +217,7 @@ MonoBehaviour:
   moveWaitMin: 1
   moveWaitMax: 4
   moveDuration: 1
-  visionDistance: 5
+  visionDistance: 4
   aggroMoveSpeed: 2
   searchForPlayerLayers:
     serializedVersion: 2

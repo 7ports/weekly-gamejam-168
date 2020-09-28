@@ -15,7 +15,7 @@ public class axeCombat : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 GetComponent<Animator>().SetTrigger("axeAttack");
-                Invoke("axeAttack", 5f); //attack will come out after a small delay, TODO: start attack animation here
+                Invoke("axeAttack", 0.7f); //attack will come out after a small delay, TODO: start attack animation here
                 nextAttackTime = Time.time + 5f;
             }
         }
