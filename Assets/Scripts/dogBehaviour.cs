@@ -47,7 +47,7 @@ public class dogBehaviour : MonoBehaviour
             {
                 if (checkFace.collider.tag == "Player" || checkFace.collider.tag == "Wall")
                 {
-                    rb.AddForce(Vector2.up * 0.25f, ForceMode2D.Impulse);
+                    rb.AddForce(Vector2.up * 0.3f, ForceMode2D.Impulse);
                 }
             }
 
