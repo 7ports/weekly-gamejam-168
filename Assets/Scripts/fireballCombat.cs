@@ -12,7 +12,7 @@ public class fireballCombat : MonoBehaviour
     public GameObject coolDownBar;
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.LeftAlt))
+        if(Input.GetKeyDown(KeyCode.S))
             fireballAttack();    
         
         coolDownBar.GetComponent<Slider>().value = Mathf.Lerp(0, 1, (Time.time-initAttackTime)/(nextAttackTime-initAttackTime));

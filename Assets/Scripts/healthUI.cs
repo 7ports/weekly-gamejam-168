@@ -11,7 +11,7 @@ public class healthUI : MonoBehaviour
     private int health = 3;
     public int maxHealth = 3;
 
-    public int Health { get { return health; } set { if(health != value) { int diff = health - value; health = value; if(diff > 0){mainCamera.GetComponent<shakeBehaviour>().TriggerShake();} if(health > maxHealth){health = 3;}} updateHealthUI(); } }
+    public int Health { get { return health; } set { if(health != value) { int diff = health - value; health = value; if(diff > 0){mainCamera.GetComponent<shakeBehaviour>().TriggerShake();} if(health > maxHealth){health = maxHealth;}} updateHealthUI(); } }
     public GameObject gameOverCanvas;
 
     void Awake()
