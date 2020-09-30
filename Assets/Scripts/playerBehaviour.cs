@@ -109,10 +109,12 @@ public class playerBehaviour : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled;
     }
     public void takeDamage(int damage){
-        HUDUI.GetComponent<healthUI>().Health -= damage;
-        invincible = true;
-        Invoke("resetInvincibility", invincibilityDuration);
-        InvokeRepeating("flickerSprite", 0.0f, 0.3f);
+        if(!invincible){
+            HUDUI.GetComponent<healthUI>().Health -= damage;
+            invincible = true;
+            Invoke("resetInvincibility", invincibilityDuration);
+            InvokeRepeating("flickerSprite", 0.0f, 0.3f);
+        }
     }
     public void heal(int healing){
         HUDUI.GetComponent<healthUI>().Health += healing;
