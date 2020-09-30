@@ -57,6 +57,7 @@ public class dogBehaviour : MonoBehaviour
         }
         if(aggro){
             moveSpeed = aggroMoveSpeed;
+            GetComponent<Animator>().SetTrigger("aggro");
         }
     }
     private void OnCollisionEnter2D(Collision2D other) {
