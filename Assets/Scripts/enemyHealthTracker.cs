@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class enemyHealthTracker : MonoBehaviour
 {
     public float health;
+    public float maxHealth;
     public bool wasDamaged = false;
     // Update is called once per frame
     void Update()
     {
         if (health <= 0){
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            gameOver gameOverCanvas = GameObject.FindGameObjectWithTag("gameOverCanvas").GetComponent<gameOver>();
+            Array.Resize(ref gameOverCanvas.graveYard, gameOverCanvas.graveYard.Length + 1);
+            gameOverCanvas.graveYard[gameOverCanvas.graveYard.GetUpperBound(0)] = gameObject;
         }
     }
 
@@ -35,5 +40,11 @@ public class enemyHealthTracker : MonoBehaviour
 
         GetComponent<SpriteRenderer>().color = Color.white;
 
+    }
+
+    public void resetHealth(){
+        health = 1.0f;
+        wasDamaged = false;
+        gameObject.SetActive(true);
     }
 }

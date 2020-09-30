@@ -293,9 +293,9 @@ TextureImporter:
       name: player_axe_special_6
       rect:
         serializedVersion: 2
-        x: 241
+        x: 248
         y: 0
-        width: 42
+        width: 39
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -316,7 +316,7 @@ TextureImporter:
         serializedVersion: 2
         x: 297
         y: 0
-        width: 34
+        width: 38
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

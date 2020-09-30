@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class axeCombat : MonoBehaviour
 {
-    public Transform axeAttackPoint1, axeAttackPoint2, axeAttackPoint3;
+    public Transform axeAttackPoint1, axeAttackPoint2, axeAttackPoint3, axeAttackPoint4;
     public float attackRange = 0.5f;
     float initAttackTime = 0f;
     public LayerMask enemyLayers;
@@ -18,7 +18,7 @@ public class axeCombat : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.S))
             {
                 GetComponent<Animator>().SetTrigger("axeAttack");
-                Invoke("axeAttack", 0.7f); //attack will come out after a small delay, TODO: start attack animation here
+                Invoke("axeAttack", 0.5f); //attack will come out after a small delay, TODO: start attack animation here
                 nextAttackTime = Time.time + 3f;
                 initAttackTime = Time.time;
 
@@ -28,7 +28,7 @@ public class axeCombat : MonoBehaviour
     }
 
     void axeAttack(){
-        Transform[] axeAttackPoints = { axeAttackPoint1, axeAttackPoint2, axeAttackPoint3 };
+        Transform[] axeAttackPoints = { axeAttackPoint1, axeAttackPoint2, axeAttackPoint3, axeAttackPoint4 };
         foreach (Transform axeAttackPoint in axeAttackPoints)
         {
             //Detect Enemies in range of attack
@@ -45,7 +45,7 @@ public class axeCombat : MonoBehaviour
 
 
     private void OnDrawGizmosSelected() {
-        Transform[] axeAttackPoints = { axeAttackPoint1, axeAttackPoint2, axeAttackPoint3 };
+        Transform[] axeAttackPoints = { axeAttackPoint1, axeAttackPoint2, axeAttackPoint3, axeAttackPoint4 };
         foreach (Transform axeAttackPoint in axeAttackPoints){
             if(axeAttackPoint != null)
                 Gizmos.DrawWireSphere(axeAttackPoint.position, attackRange);

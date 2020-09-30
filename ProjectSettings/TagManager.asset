@@ -14,6 +14,9 @@ TagManager:
   - redGem
   - blueGem
   - ogre
+  - checkPoint
+  - savedPoint
+  - gameOverCanvas
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class playerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public float attackDelay = 0.4f;
+    public float attackDelay = 0.25f;
     float nextAttackTime = 0f;
     void Update()
     {
