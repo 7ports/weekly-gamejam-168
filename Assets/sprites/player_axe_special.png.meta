@@ -50,6 +50,12 @@ TextureImporter:
   - first:
       213: -8355234372351464305
     second: player_axe_special_7
+  - first:
+      213: -7163736360862491669
+    second: player_axe_special_8
+  - first:
+      213: 1602703914530740198
+    second: player_axe_special_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -188,12 +194,12 @@ TextureImporter:
       name: player_axe_special_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +215,12 @@ TextureImporter:
       name: player_axe_special_1
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 0
-        width: 20
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,12 +236,12 @@ TextureImporter:
       name: player_axe_special_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 0
-        width: 20
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +257,12 @@ TextureImporter:
       name: player_axe_special_3
       rect:
         serializedVersion: 2
-        x: 149
+        x: 144
         y: 0
-        width: 19
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +278,12 @@ TextureImporter:
       name: player_axe_special_5
       rect:
         serializedVersion: 2
-        x: 194
+        x: 240
         y: 0
-        width: 39
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +299,12 @@ TextureImporter:
       name: player_axe_special_6
       rect:
         serializedVersion: 2
-        x: 248
+        x: 288
         y: 0
-        width: 39
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -311,22 +317,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_axe_special_7
+      name: player_axe_special_4
       rect:
         serializedVersion: 2
-        x: 297
+        x: 192
         y: 0
-        width: 38
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3, y: 0.26}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c6bd43b9e3c0c80800000000000000
-      internalID: -8355234372351464305
+      spriteID: 7f95d61035a4870d0800000000000000
+      internalID: -3424905796248577545
       vertices: []
       indices: 
       edges: []

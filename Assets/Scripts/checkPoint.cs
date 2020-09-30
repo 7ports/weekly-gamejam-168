@@ -10,7 +10,7 @@ public class checkPoint : MonoBehaviour
     public Sprite defaultSprite;
     
     private void OnTriggerStay2D(Collider2D other) {
-        if(other.CompareTag("Player") && Input.GetKey(KeyCode.W) && gameObject.CompareTag("checkPoint")){
+        if(other.CompareTag("Player") && gameObject.CompareTag("checkPoint")){
             Debug.Log("saving");
             GetComponent<SpriteRenderer>().sprite = savedSprite;
             GameObject previousCheckPoint = GameObject.FindGameObjectWithTag("savedPoint"); 

@@ -8,17 +8,17 @@ public class playerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public float attackDelay = 0.25f;
+    public float attackDelay = 0.15f;
     float nextAttackTime = 0f;
     void Update()
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.LeftControl))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 GetComponent<Animator>().SetTrigger("attack");
-                Invoke("basicAttack", 0.4f); //attack will come out after a small delay, TODO: start attack animation here
-                nextAttackTime = Time.time + 0.4f;
+                Invoke("basicAttack", 0.3f); //attack will come out after a small delay, TODO: start attack animation here
+                nextAttackTime = Time.time + 0.3f;
             }
         }
     }

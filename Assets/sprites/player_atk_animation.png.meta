@@ -23,6 +23,12 @@ TextureImporter:
   - first:
       213: -5309600381395068899
     second: player_atk_animation_2
+  - first:
+      213: -950670366353608928
+    second: player_atk_animation_4
+  - first:
+      213: 1287096401563792401
+    second: player_atk_animation_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,12 +167,12 @@ TextureImporter:
       name: player_atk_animation_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.21, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,12 +188,12 @@ TextureImporter:
       name: player_atk_animation_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.21, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,12 +209,12 @@ TextureImporter:
       name: player_atk_animation_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 64
         y: 0
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.21, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
