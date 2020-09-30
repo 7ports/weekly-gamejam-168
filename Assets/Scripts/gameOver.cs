@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class gameOver : MonoBehaviour
 {
@@ -35,5 +36,13 @@ public class gameOver : MonoBehaviour
         }
         Time.timeScale = 1.0f;
         gameOverUI.SetActive(false);
+    }
+
+
+    public void restartLevel(){
+
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 }
