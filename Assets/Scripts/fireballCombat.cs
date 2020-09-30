@@ -22,6 +22,7 @@ public class fireballCombat : MonoBehaviour
         if (Time.time >= nextAttackTime)
         {
             GameObject newFireball = GameObject.Instantiate(fireball, transform.position + transform.right, Quaternion.identity);
+            AudioManager.instance.Play("specialAttack");
             GetComponent<Animator>().SetTrigger("fireball");
             newFireball.GetComponent<Rigidbody2D>().velocity = transform.right * fireballSpeed;
             nextAttackTime = Time.time + 5.0f;

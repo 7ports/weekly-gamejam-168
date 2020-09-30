@@ -11,7 +11,7 @@ public class checkPoint : MonoBehaviour
     
     private void OnTriggerStay2D(Collider2D other) {
         if(other.CompareTag("Player") && gameObject.CompareTag("checkPoint")){
-            Debug.Log("saving");
+            AudioManager.instance.Play("checkPoint");
             GetComponent<SpriteRenderer>().sprite = savedSprite;
             GameObject previousCheckPoint = GameObject.FindGameObjectWithTag("savedPoint"); 
             if (previousCheckPoint != null) {

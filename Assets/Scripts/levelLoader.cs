@@ -23,6 +23,7 @@ public class levelLoader : MonoBehaviour
     IEnumerator LoadLevel(int levelIndex){
 
         transition.SetTrigger("Start");
+        AudioManager.instance.Play("levelEnd");
 
         yield return new WaitForSeconds(transitionTime);
 

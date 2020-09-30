@@ -31,7 +31,10 @@ public class gameOver : MonoBehaviour
         GameObject HUDUI = player.GetComponent<playerBehaviour>().HUDUI;
         HUDUI.GetComponent<healthUI>().Health = 3;
         foreach(GameObject enemy in graveYard){
-            enemy.GetComponent<enemyHealthTracker>().resetHealth();
+            if(enemy.CompareTag("Enemy"))
+                enemy.GetComponent<enemyHealthTracker>().resetHealth();
+            else
+                enemy.SetActive(true);
             Array.Resize(ref graveYard, 0);
         }
         Time.timeScale = 1.0f;

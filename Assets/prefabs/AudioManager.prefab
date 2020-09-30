@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &842496068268218205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5398538568967726031}
+  - component: {fileID: 5732848429314665814}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5398538568967726031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842496068268218205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.120533, y: -17.470367, z: -83.94633}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5732848429314665814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842496068268218205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155bd8d4da4bacf418b97bbf93d94020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: playerHeal
+    clip: {fileID: 8300000, guid: 88c01a9d22364394dad675267b6a4367, type: 3}
+    volume: 0.313
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gemPickup
+    clip: {fileID: 8300000, guid: b3b88a18a0a9f334eaf12353e6f09195, type: 3}
+    volume: 0.313
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: playerDamage
+    clip: {fileID: 8300000, guid: 4556691d534be024ba096a06276d6dae, type: 3}
+    volume: 0.313
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: openChest
+    clip: {fileID: 8300000, guid: 0c4e939866d59984286d2cecccfab9d2, type: 3}
+    volume: 0.241
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: checkPoint
+    clip: {fileID: 8300000, guid: 0524602144a207a438d87ec67f621bd5, type: 3}
+    volume: 0.327
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: springPad
+    clip: {fileID: 8300000, guid: 32c024577038b3c47af57ab8408b33a5, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemyDamage
+    clip: {fileID: 8300000, guid: c9d09e2cc324f4c4ab1d899a9c0d574f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: levelEnd
+    clip: {fileID: 8300000, guid: 29c4dacad2bf22749838f207b2dc3312, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: golemSwing
+    clip: {fileID: 8300000, guid: 84dcc4cca01434b4fb38da7aedbc9e2f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ogreSwing
+    clip: {fileID: 8300000, guid: 84dcc4cca01434b4fb38da7aedbc9e2f, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: mimicLaugh
+    clip: {fileID: 8300000, guid: e2d08f53ed6022d48b3ddbf1dd9d7656, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: playerSwing
+    clip: {fileID: 8300000, guid: 84dcc4cca01434b4fb38da7aedbc9e2f, type: 3}
+    volume: 0.228
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: playerJump
+    clip: {fileID: 8300000, guid: ef8bd9c82b6c14645bbfc5d06b226179, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: specialAttack
+    clip: {fileID: 8300000, guid: 5dbd8c17c32f50149a0f1d5b9a3b6d62, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  playing: 

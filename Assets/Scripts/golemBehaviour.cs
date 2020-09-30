@@ -110,6 +110,7 @@ public class golemBehaviour : MonoBehaviour
         }
     }
     void attack(){
+        AudioManager.instance.Play("golemSwing");
         Collider2D[] hitTargets = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, searchForPlayerLayers);
         foreach(Collider2D target in hitTargets){
             if(target.tag == "Player"){

@@ -28,6 +28,7 @@ public class axeCombat : MonoBehaviour
     }
 
     void axeAttack(){
+        AudioManager.instance.Play("specialAttack");
         Transform[] axeAttackPoints = { axeAttackPoint1, axeAttackPoint2, axeAttackPoint3, axeAttackPoint4 };
         foreach (Transform axeAttackPoint in axeAttackPoints)
         {

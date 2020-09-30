@@ -32,6 +32,7 @@ public class chestBehaviour : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other) {
         if(other.CompareTag("Player") && Input.GetKey(KeyCode.Q) && !isOpen && !isMimic){
             if(Random.Range(0f,1f) < 0.9){
+                AudioManager.instance.Play("openChest");
             GetComponent<Animator>().SetTrigger("isOpen");
             GameObject[] possibleObjects = { blueGem, redGem, heart };
             int i = Random.Range(0, possibleObjects.Length);
@@ -41,18 +42,19 @@ public class chestBehaviour : MonoBehaviour
                 GameObject.Instantiate(possibleObjects[i], transform.position + Vector3.right, Quaternion.identity);
             isOpen = true;
             } else {
-                Invoke("makeEnemy", 1.0f);
+                AudioManager.instance.Play("mimicLaugh");
+                Invoke("makeEnemy", 2.0f);
                 GetComponent<Animator>().SetTrigger("isMimic");
-                GetComponent<BoxCollider2D>().isTrigger = false;
-                GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-                GetComponent<Rigidbody2D>().freezeRotation = true;
-                GetComponent<enemyHealthTracker>().enabled = true;
                 
             }
         }
     }
 
     private void makeEnemy(){
+        GetComponent<BoxCollider2D>().isTrigger = false;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        GetComponent<Rigidbody2D>().freezeRotation = true;
+        GetComponent<enemyHealthTracker>().enabled = true;
         gameObject.layer = 8;
         gameObject.tag = "Enemy";
         isMimic = true;

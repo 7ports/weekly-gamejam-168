@@ -110,6 +110,7 @@ public class orcBehaviour : MonoBehaviour
         }
     }
     void attack(){
+        AudioManager.instance.Play("orcSwing");
         Collider2D[] hitTargets = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, searchForPlayerLayers);
         foreach(Collider2D target in hitTargets){
             if(target.tag == "Player"){

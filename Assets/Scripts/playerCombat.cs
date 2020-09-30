@@ -24,6 +24,7 @@ public class playerCombat : MonoBehaviour
     }
 
     void basicAttack(){
+        AudioManager.instance.Play("playerSwing");
         //Detect Enemies in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         //Damage enemies

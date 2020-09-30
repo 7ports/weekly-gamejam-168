@@ -29,6 +29,7 @@ public class enemyHealthTracker : MonoBehaviour
         }
     }
     public void Damage(float damageValue){
+        AudioManager.instance.Play("enemyDamage");
         health -= damageValue;
         wasDamaged = true;
     }

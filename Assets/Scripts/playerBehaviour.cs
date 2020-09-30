@@ -37,6 +37,7 @@ public class playerBehaviour : MonoBehaviour
        GetComponent<Animator>().SetBool("isGrounded", isGrounded());
        if(isJump && isGrounded()){
             rb.AddForce(Vector2.up * jumpMult, ForceMode2D.Impulse);
+            AudioManager.instance.Play("playerJump");
         }
     }
 
@@ -76,6 +77,7 @@ public class playerBehaviour : MonoBehaviour
             if (collider.gameObject.tag == "Spike")
                 HUDUI.GetComponent<healthUI>().Health = 0;
             if (collider.gameObject.tag == "Enemy"){
+                AudioManager.instance.Play("playerDamage");
                 takeDamage(1);
             }
         }
@@ -83,19 +85,19 @@ public class playerBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "redGem") {
-            //TODO: disable other special combat scripts when picking up a particular gem
+            AudioManager.instance.Play("gemPickup");
             GetComponent<fireballCombat>().enabled = true;
             GetComponent<axeCombat>().enabled = false;
             other.GetComponent<Animator>().SetTrigger("break");
-            Destroy(other.gameObject, other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            Destroy(other.gameObject, 0.6f);
             HUDUI.GetComponentInChildren<Text>().text = "Special Attack : <FIREBALL>";
         }
         else if(other.tag == "blueGem") {
-            //TODO: disable other special combat scripts when picking up a particular gem
+            AudioManager.instance.Play("gemPickup");
             GetComponent<axeCombat>().enabled = true;
             GetComponent<fireballCombat>().enabled = false;
             other.GetComponent<Animator>().SetTrigger("break");
-            Destroy(other.gameObject, other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            Destroy(other.gameObject, 0.6f);
             HUDUI.GetComponentInChildren<Text>().text = "Special Attack : <HEAVY SWING>";
         }
     }
