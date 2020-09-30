@@ -7,12 +7,14 @@ public class enemyHealthTracker : MonoBehaviour
 {
     public float health;
     public float maxHealth;
+    public bool isDead = false;
     public bool wasDamaged = false;
     // Update is called once per frame
     void Update()
     {
         if (health <= 0){
             gameObject.SetActive(false);
+            isDead = true;
             gameOver gameOverCanvas = GameObject.FindGameObjectWithTag("gameOverCanvas").GetComponent<gameOver>();
             Array.Resize(ref gameOverCanvas.graveYard, gameOverCanvas.graveYard.Length + 1);
             gameOverCanvas.graveYard[gameOverCanvas.graveYard.GetUpperBound(0)] = gameObject;
@@ -44,7 +46,8 @@ public class enemyHealthTracker : MonoBehaviour
     }
 
     public void resetHealth(){
-        health = 1.0f;
+        isDead = false;
+        health = maxHealth;
         wasDamaged = false;
         gameObject.SetActive(true);
     }
