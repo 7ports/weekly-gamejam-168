@@ -98,7 +98,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: ogreSwing
+  - name: orcSwing
     clip: {fileID: 8300000, guid: 84dcc4cca01434b4fb38da7aedbc9e2f, type: 3}
     volume: 0.2
     pitch: 0.8
