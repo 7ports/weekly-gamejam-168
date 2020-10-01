@@ -22,9 +22,9 @@ public class playerBehaviour : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         facing = Vector3.right;
         moveSpeed = 5.0f;
-        jumpMult = 5.0f;
+        jumpMult = 5.2f;
         fallMultiplier = 2.0f;
-        jumpWeight = 3.0f;
+        jumpWeight = 2.5f;
         invincible = false;
         invincibilityDuration = 1.0f;
     }

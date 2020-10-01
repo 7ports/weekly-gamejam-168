@@ -30,6 +30,21 @@ public class gameOver : MonoBehaviour
         player.transform.position = savedPoint.transform.position;
         GameObject HUDUI = player.GetComponent<playerBehaviour>().HUDUI;
         HUDUI.GetComponent<healthUI>().Health = 3;
+        foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy")){
+            enemy.GetComponent<enemyHealthTracker>().resetHealth();
+            if (enemy.GetComponent<golemBehaviour>() != null)
+            {
+                enemy.GetComponent<golemBehaviour>().aggro = false;
+            }
+            if (enemy.GetComponent<orcBehaviour>() != null)
+            {
+                enemy.GetComponent<orcBehaviour>().aggro = false;
+            }
+            if (enemy.GetComponent<dogBehaviour>() != null)
+            {
+                enemy.GetComponent<dogBehaviour>().aggro = false;
+            }
+        }
         foreach(GameObject enemy in graveYard){
             if(enemy.CompareTag("Enemy")){
                 enemy.GetComponent<enemyHealthTracker>().resetHealth();

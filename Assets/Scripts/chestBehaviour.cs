@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class chestBehaviour : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class chestBehaviour : MonoBehaviour
     bool isOpen = false;
     bool isMimic = false;
     public float moveSpeed = 2.0f;
+    public float dropChance = 0.9f;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,11 +33,13 @@ public class chestBehaviour : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other) {
         if(other.CompareTag("Player") && Input.GetKey(KeyCode.Q) && !isOpen && !isMimic){
-            if(Random.Range(0f,1f) < 0.9){
+            if(UnityEngine.Random.Range(0f,1f) < dropChance){
                 AudioManager.instance.Play("openChest");
             GetComponent<Animator>().SetTrigger("isOpen");
             GameObject[] possibleObjects = { blueGem, redGem, heart };
-            int i = Random.Range(0, possibleObjects.Length);
+            if (other.GetComponent<playerBehaviour>().HUDUI.GetComponent<healthUI>().Health == 3)
+                Array.Resize(ref possibleObjects, possibleObjects.Length - 1);
+            int i = UnityEngine.Random.Range(0, possibleObjects.Length);
             if(other.transform.position.x > transform.position.x)
                 GameObject.Instantiate(possibleObjects[i], transform.position + Vector3.left, Quaternion.identity);
             else if(other.transform.position.x <= transform.position.x)
