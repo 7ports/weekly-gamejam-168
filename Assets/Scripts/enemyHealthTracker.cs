@@ -9,6 +9,11 @@ public class enemyHealthTracker : MonoBehaviour
     public float maxHealth;
     public bool isDead = false;
     public bool wasDamaged = false;
+    public Vector3 initPosition;
+
+    private void Awake() {
+        initPosition = transform.position;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -46,6 +51,7 @@ public class enemyHealthTracker : MonoBehaviour
     }
 
     public void resetHealth(){
+        transform.position = initPosition;    
         isDead = false;
         health = maxHealth;
         wasDamaged = false;
