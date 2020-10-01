@@ -7,7 +7,7 @@ public class dogBehaviour : MonoBehaviour
     public float visionDistance = 5f;
     public LayerMask searchForPlayerLayers;
     public float moveSpeed;
-    bool aggro = false;
+    public bool aggro = false;
     float facing = 1f;
     public float aggroMoveSpeed = 3f;
     Rigidbody2D rb;

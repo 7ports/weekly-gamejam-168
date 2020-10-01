@@ -19,13 +19,13 @@ public class golemBehaviour : MonoBehaviour
     float nextAttackTime = 0f;
     public float aggroMoveSpeed = 2f;
     public LayerMask searchForPlayerLayers;
+    public bool aggro = false;
 
     private void Start()
     {
         //make it so that the player can walk through the orc
         Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>());
     }
-    bool aggro = false;
     void Update()
     {
         if (!aggro)
