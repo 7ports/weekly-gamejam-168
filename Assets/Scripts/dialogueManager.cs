@@ -46,9 +46,6 @@ public class dialogueManager : MonoBehaviour
 
     void endDialogue(){
         dialogueCanvas.SetActive(false);
-
-        Debug.Log("ending dialogue");
-
     }
 
 }

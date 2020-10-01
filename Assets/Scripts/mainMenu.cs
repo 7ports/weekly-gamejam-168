@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class mainMenu : MonoBehaviour
 {
     public void playGame(){
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("startStory");
     }
     public void showCredits(){
         SceneManager.LoadScene("credits");
